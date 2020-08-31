@@ -14,7 +14,7 @@ from functools import partial
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import dj_database_url
-from decouple import config, Csv
+from decouple import config
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'o+fwt8%x(*tzqqnlxo02ttj42px!%+a4d%n^d$rrgqe@q2zj7p'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
