@@ -18,4 +18,4 @@ def post_detail(request, year, month, day, post):
                              publish__day=day, )
     return render(request,
                   'blog_app/post/detail.html',
-                  {'posts': post})
+                  {'post': post})
