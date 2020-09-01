@@ -1,5 +1,5 @@
 # Blog in Django
-## Blog application following the book _Learn Django 3 with Examples_
+## Blog application following the book _Django 3 by Example_
 
 ![Django CI](https://github.com/vitorpvcampos/blog-django/workflows/Django%20CI/badge.svg)
 [![Updates](https://pyup.io/repos/github/vitorpvcampos/blog-django/shield.svg)](https://pyup.io/repos/github/vitorpvcampos/blog-django/)
