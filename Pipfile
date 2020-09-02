@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+asgiref = "*"
+flake8 = "*"
+mccabe = "*"
+pycodestyle = "*"
+pyflakes = "*"
+pytz = "*"
+sqlparse = "*"
+pytest = "*"
+
+[packages]
+django = "*"
+mccabe = "*"
+psycopg2 = "*"
+pyflakes = "*"
+pytz = "*"
+python-decouple = "*"
+dj-database-url = "*"
+
+[requires]
+python_version = "3.8"
