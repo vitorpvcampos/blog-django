@@ -10,19 +10,15 @@
 ### How to run the project?
 
 * Clone the repository
-* Create a virtual environment with Python 3
-* Activate the virtual environment
+* Create a virtual environment
 * Install the dependencies
 * Run the migrations
 
 ```
 git clone https://github.com/vitorpvcampos/blog-django.git
 cd blog-django
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-python contrib/env_gen.py
+pip install pipenv
+pipenv install --dev
 python manage.py migrate
 ```
 ### Testss
@@ -32,8 +28,7 @@ python manage.py migrate
 python manage.py test -v 2
 ```
 
-#### Code style and PEP8 check
+#### PEP8 lint
 ```
-pycodestyle .
-flake8 .
+pipenv run flake8
 ```
