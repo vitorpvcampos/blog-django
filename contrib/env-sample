@@ -2,3 +2,6 @@ SECRET_KEY=key
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
 DEBUG=False
 ALLOWED_HOSTS=localhost, 127.0.0.1
+EMAIL_HOST = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
