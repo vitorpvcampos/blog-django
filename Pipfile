@@ -12,6 +12,7 @@ pyflakes = "*"
 pytz = "*"
 sqlparse = "*"
 pytest = "*"
+django-taggit = "*"
 
 [packages]
 django = "*"
